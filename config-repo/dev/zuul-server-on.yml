@@ -37,7 +37,7 @@ zuul:
   routes:
     student-consumer: /mc/**
     feign-consumer: /fm/**
-  ignored-services: *
+  ignored-services: "*"
   add-host-header: true
   host:
     connect-timeout-millis: 5000
